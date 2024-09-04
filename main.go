@@ -24,7 +24,7 @@ type apiConfig struct {
 //go:embed static/*
 var staticFiles embed.FS
 
-fun unused() {
+func unused() {
 	// this function does nothing
 	// and is called nowhere
 }
